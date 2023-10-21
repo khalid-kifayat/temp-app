@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius Convertor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <center>
+    <h1> Convertor App : Celsius --> Fahrenheit </h1>
+    <h4> (Assignment by Sir Inzamam) </h4>
+    </center>
+
+    <form onclick="doConvert(event)"> 
+
+         <div class="flex">
+        <h1 class="text"> Celsius # </h1> <input style="width: 130px; height: 30px;" type="number" id="myNumber" required>
+    </div>
+
+        <br>
+        <br> 
+       
+         <div class="convert">  
+          <button style="width: 400px; height: 80px;" id="convertButton" onclick="doConvert(event)" > <h1 class="convertButton"> Convert to Fahrenheit </h1> </button>
+        </div>
+    </form>
+
+    <h1 id="resultBox"> </h1>
+    
+
+    <script src="./script.mjs"></script>
+
+</body>
+</html>
